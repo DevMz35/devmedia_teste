@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400&display=swap;">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de viagens</title>
+</head>
+<body>
+   <header id="secao-topo">
+    <div class="container" id="logo-topo">
+    
+        <img id="logo-top" src="./img/local-logo.png" alt="">
+        
+        <p>Agência de viagens</p>
+    </div>
+   </header>
+   <main>
+<section class="secao-principal">
+    <div class="container" id="my-form">
+        <figure class="titulo-form">
+            <img src="./img/aviao.png">
+            <figcaption class="tit">Solicite um orcamento</figcaption>
+        </figure>
+    <div class="form">
+        <h3>Informe seus dados</h3>
+   <form method="post" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+    
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="telefone">Celular</label>
+        <input type="tel" name="telefone" id="telefone">
+         
+        <div class="data">
+         
+         <div>
+        <label for="data">Data da ida</label>
+        <input type="date" name="data-ida" id="data">
+         </div>
+
+        <div>
+        <label for="data2">Data de Volta</label>
+        <input type="date" name="data-volta" id="data2">
+        </div>
+
+        </div>
+         <div class="selecao">
+        <div>
+        <label for="origem">origem</label>
+        <select name="origem" id="origem">
+            <option >Partindo de</option>
+            <option value="maputo">Maputo</option>
+            <option value="sofala">Sofala</option>
+            <option value="cabo-delgado">Cabo delgado</option>
+            <option value="niassa">Niassa</option>
+        </select>
+        </div>
+        <div>
+        <label for="indo">Destino</label>
+        <select name="destino" id="indo">
+            <option >indo para</option>
+            <option value="maputo">Maputo</option>
+            <option value="sofala">Sofala</option>
+            <option value="niassa">Niassa</option>
+        </select>
+        </div>
+       </div>
+       <div class="radio">
+        <p>Quarto com cama infantil?</p>
+        
+        <div>
+        
+        <input type="radio" name="quarto" id="sim" value="sim">
+        <label for="sim">Sim</label>
+        
+        <input type="radio" name="quarto" id="nao" value="sim">
+        <label for="nao">Não</label>
+    </div>
+         </div>
+        <div class="box">
+        <p>Preferências da hospedagem</p>
+        <div>
+        
+        <input type="checkbox" name="preferencias[]" id="piscina" value="piscina">
+        <label for="piscina">Piscina</label>
+        
+        <input type="checkbox" name="preferencias[]" id="wi-fi" value="wi-fi">
+        <label for="wifi">Wi-fi</label>
+          </div><div>
+        <input type="checkbox" name="preferencias[]" id="garagem" value="garagem">
+        <label for="garagem">Garagem</label>
+        
+        <input type="checkbox" name="preferencias[]" id="suite" value="suite">
+        <label for="suite">Suite</label>
+      </div>
+      </div>
+       <button type="submit">Solicitar orçamento</button>
+   </form>
+</div>
+</div>
+</section> 
+ <section class="secao-ofertas">
+    <div class="container ofertas">
+    <h2>Ofertas</h2>
+    <h4>Com até <span>50%</span> de desconto</h4>
+    <div class="img-colection">
+    <figure class="image-destaque">
+        <img src="./img/rio.jpg" alt="">
+        <figcaption>Rio de Janeiro</figcaption>
+       </figure> 
+    <div class="img-secundary">
+        <figure class="img-figure">
+            <img class="img" src="./img/manaus.jpg" alt="">
+            <figcaption>Manaus</figcaption>
+           </figure> 
+
+           <figure class="img-figure">
+            <img class="img" src="./img/saopaulo.jpg" alt="">
+            <figcaption>Sao Paulo</figcaption>
+           </figure> 
+
+           <figure class="img-figure">
+            <img class="img"  src="./img/niteroi.jpg" alt="">
+            <figcaption>Rio de Janeiro</figcaption>
+           </figure> 
+
+           <figure class="img-figure">
+            <img class="img" src="./img/maranhao.jpg" alt="">
+            <figcaption>Maranhau</figcaption>
+        </figure> 
+    </div>
+   </div>
+</div>
+</section>
+<section class="secao-ofertas">
+    <div class="container ofertas">
+        <h2>Explore a Natureza</h2>
+        <h4>Viaje conosco e veja o melhor que a natureza tem a oferecer</h4>
+       <div class="imagens-anuncio">
+        <figure class="anuncio">
+        <img class="img-anuncio" src="./img/lencol.jpg" alt="">
+        <div class="anuncio-texto">
+            <h4 class="subtitulo-texto">Cachoeira Santa Barbara, Brasil</h4>
+            <p>ida e volta a partir de R$ 79</p>
+        </div>
+       </figure> 
+
+       <figure class="anuncio">
+        <img class="img-anuncio" src="./img/goias.jpg" alt="">
+        <div class="anuncio-texto">
+            <h4 class="subtitulo-texto">Cachoeira santa barbara, Brasil</h4>
+            <p>ida e volta a partir de R$ 79</p>
+        </div>
+       </figure> 
+       </div>
+    </div></div>
+ </section>
+</main>
+ <footer>
+    <div class=" container agrupador">
+        <div>
+        <h3>Contato</h3>
+    <ul>
+    <li><img src="./img/local.png"><span>Rio de Janeiro RJ</span></li>
+    <li><img src="./img/telefone.png"><span>Telefone (21) 9999-9999</span></li>
+    <li><img src="./img/email.png"><span>Email contato@agencia.com.br</span></li>
+    </ul>
+    </div>
+    <div>
+        <h3>Nossas Redes Sociais</h3>
+        <ul>
+        <li><img src="./img/fb.png"><span>agenciaDeViagem</span></li>
+        <li><img src="./img/ig.png"><span>@agenciaDeViagem</span></li>
+        <li><img src="./img/tt.png"><span>@agenciaDeViagem</span></li>
+        </ul>
+    </div>
+    
+
+    </div>
+ </footer>
+   
+</body>
+</html>

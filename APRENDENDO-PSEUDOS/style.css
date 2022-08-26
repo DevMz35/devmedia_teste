@@ -1,0 +1,54 @@
+ul li a{
+    color: red;
+}
+ ul li a:hover {
+    background-color: green;
+}
+
+ul li a:visited {
+    color: green
+}
+
+a::before{
+    content: "trabalho";
+    font-size: 32px;
+    color: yellow;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.pseudo p:last-of-type {
+    background-color: blue;
+    padding: 10px;
+}
+
+.pseudo p:first-of-type {
+    background-color: rgb(96, 146, 96);
+    padding: 10px;
+}
+
+.pseudo p:nth-of-type(odd) {
+    background-color: yellowgreen;
+    padding: 10px;
+}
+
+.pseudo p:nth-of-type(even) {
+    color: green;
+}
+
+p:first-child {
+    color:#c4441d
+}
+
+p:last-child {
+    color:#7f1899
+}
+
+.pseudo::first-letter {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 52px;
+}

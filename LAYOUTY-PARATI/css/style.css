@@ -1,0 +1,167 @@
+body{
+    background-size: 100vw auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 1px 2px #959595;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.topo img {
+    height: 70px;
+}
+
+.topo .nav a{
+    width: 50%;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.topo .nav a:hover{
+    color: #959595;
+}
+
+.capa {
+    background-image: url("../assets/bg-estacao.png");
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 58px;
+    color: #fff;
+    background-color: black;
+    opacity: 100%;
+    padding: 0;
+}
+
+.capa::before{
+    content: "";
+    width: 100%;
+    height: 480px;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+p::first-letter{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.capa h1, h2 {
+    margin: 3px;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-size: 42px;
+}
+
+.info-site {
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.info-site p{
+    max-width: 800px;
+    margin:18px auto;
+    line-height: 32px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.info-site .img{
+    max-width: 800px;
+}
+
+#pontos {
+    width: 100%;
+    background-color: #e0d2d2;
+    padding: 10px;
+}
+
+.links {
+    width: 800px;
+    text-align: justify;
+    margin: auto;
+    list-style: none;
+}
+
+.links a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+
+.links a::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url("../assets/seta.png");
+}
+
+.galeria-detalhe {
+    width: 100%;
+    text-align: center;
+}
+
+.galeria-detalhe p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#galeria {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+#galeria img{
+    width: 250px;
+    opacity: 0.5;
+
+}
+
+#galeria img:hover{
+    opacity: 1;
+}
+
+.os-subtitulos {
+    font-size: 28px;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(143, 143, 25);
+    text-align: center;
+    margin-top: 20px;
+}
+

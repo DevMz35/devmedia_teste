@@ -1,0 +1,31 @@
+body {
+    font-family: Source Sans Pro;
+    color: #5c5c5c
+}
+
+.fundo-quarto {
+    height: 20vw;
+}
+
+
+.minha-lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.minha-lista li {
+    width: 200px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.minha-lista .none {
+    list-style: none;
+}
+
+.nossos-quartos {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+

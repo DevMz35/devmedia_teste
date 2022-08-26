@@ -1,0 +1,35 @@
+div {
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    font-size: 20px;
+}
+
+p {
+    text-align: justify;
+    line-height: 26px;
+}
+
+span {
+    color: red;
+}
+
+a {
+    background-color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f0f8ff;
+}
+

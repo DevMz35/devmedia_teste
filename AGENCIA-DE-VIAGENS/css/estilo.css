@@ -1,0 +1,443 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #80808029;
+    font-family: Raleway, sans-serif;
+}
+
+#logo-topo #logo-top {
+    width: 32px;
+    height: 32px;
+}
+
+#secao-topo {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1024px;
+}
+
+#logo-topo {
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logo-topo p {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+.secao-principal {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    background-image: url("../img/bahia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#my-form {
+    margin: 50px auto;
+    height: auto;
+}
+
+.titulo-form{
+    background-color: #5d15d1;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-form img {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+}
+
+.titulo-form .tit {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#my-form .form {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+}
+
+.form h3 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form form label {
+    font-size: 16px;
+}
+
+.form form input {
+    height: 32px;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data div {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selecao {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selecao div{
+ display: flex;
+ flex-direction: column;
+ width: 480px;
+}
+
+.selecao div select {
+    margin: 10px 0;
+    height: 32px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: start;
+}
+
+.radio div label {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    margin-left: 8px;
+}
+
+.box {
+    width: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.box div {
+    display: flex;
+
+}
+
+.box label {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 120px;
+    margin-left: 8px;
+}
+
+ input[type="radio"], input[type="checkbox"] {
+    width: 15px;
+    margin-right: 10px;
+}
+
+button {
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.secao-ofertas {
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0 auto
+}
+
+.ofertas {
+    height: 100%;
+    margin: auto;
+}
+
+.ofertas h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ofertas h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.ofertas h4 span {
+    font-weight: bold;
+}
+
+.img-colection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 375px;
+}
+
+.img-colection .image-destaque, .img-secundary {
+    width: 492px;
+    height: 100%;
+}
+
+.image-destaque {
+    position: relative;
+}
+
+.image-destaque img {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.image-destaque figcaption {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 50%;
+    background-color: #000;
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.img-secundary {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.img-secundary .img-figure {
+    width: 236px;
+    height: 167.5px;
+    position: relative;
+}
+
+.img-figure .img{
+   width: 100%;
+   height: 100%;
+   box-sizing: border-box;
+}
+
+.img-figure figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 50%;
+    background-color: #000;
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.imagens-anuncio {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens-anuncio .anuncio{
+    width: 502.5px;
+    height: 100%;
+}
+
+.anuncio .img-anuncio{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.anuncio-texto {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.subtitulo-texto {
+    font-size: 16px;
+}
+
+.anuncio-texto p {
+    color: grey;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+footer {
+    width: 100%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+}
+
+footer .agrupador {
+   margin: auto;
+   display: flex;
+   justify-content: space-around;
+}
+
+.agrupador div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+.agrupador div h3{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.agrupador div li{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.agrupador div img {
+    width: 18px;
+}
+
+.agrupador div li span{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1100px) { 
+
+    .container{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+
+    .img-colection {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+   .img-colection .image-destaque, img {
+        width: 100%;
+    }
+
+
+    .img-secundary {
+        width: 100%;
+    }
+
+    .img-secundary .img-figure {
+        width: 100%;
+        height: 225px;
+        margin-top: 15px;
+    }
+
+    .img-figure .img {
+        width: 100%;
+    }
+
+    .imagens-anuncio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagens-anuncio .anuncio, .img-anuncio {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    footer .agrupador {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .agrupador div {
+        width: 250px;
+    }   
+}
+
+
+@media (max-width: 540px) {
+    .data {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .data input[type="date"] {
+        width: 100%;
+    }
+
+    .selecao {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .selecao div #indo, #origem {
+        width: 100%;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+}
